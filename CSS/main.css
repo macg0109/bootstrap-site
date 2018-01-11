@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: Merriweather, "Times New Roman", serif;
+     color: #33FDFF;
+}
+h1 {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 3.998rem;
+    padding: 1rem 2rem;
+    color: #33FDFF
+}
+h2 {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 2.827rem;
+    padding: 1rem 2rem;
+    color: #33FDFF
+}
+h3 {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 2.827rem;
+    padding: 1rem 2rem;
+    color: #33FDFF
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 80px;
+    font-family: Merriweather, "Times New Roman", serif;
+    color: #33FDFF;
+    background-color: #000938;  
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 80px;
+    line-height: 80px;
+    /* Vertically center the text there */
+    background-color: #000938;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #0155E8;
+}
+.footer > .container > a {
+    fill: 81FFE1;
+    stroke: 81FFE1;
+}
+.footer > .container > a:hover {
+    fill: #2EC0E8;
+    stroke: #2EC0E8;
+}
+code {
+    font-size: 80%;
+}
